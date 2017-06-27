@@ -1,0 +1,6 @@
+// SASS MIXINS
+@mixin dog {
+    @media all and (min-width: 40rem) {
+        @content;
+    }
+}
